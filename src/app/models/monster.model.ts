@@ -9,7 +9,8 @@ export class Monster {
   figCaption: string = "Nº001 Monster";
   attackName: string = "Geo Impact";
   attackStrength: number = 60;
-  attackDescription: string = "Te zzril et excepteur iusto, praesent tincidunt elitr nam lorem voluptate elit elit.";
+  attackDescription: string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minim illum cupiditat" +
+    " feugait doming"
 
   // Create a copy of the Monster object with all the params of the current one
   copy(): Monster {

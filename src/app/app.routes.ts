@@ -9,7 +9,7 @@ export const routes: Routes = [
   {
     path: 'monster', children: [
       {path: '', component: MonsterComponent},
-      {path: ':id', component: MonsterComponent},
+      {path: ':monster', component: MonsterComponent},
     ]
   },
   {path: '**', component: NotFoundComponent},
